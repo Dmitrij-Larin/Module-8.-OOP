@@ -4,7 +4,7 @@ class Circle:
         self.__radius = radius
 
     def circle_length(self):
-        return 2 * 3.14 * self.__radius
+        return round(2 * 3.14 * self.__radius, 2)
 
     def circle_area(self):
         return 3.14 * self.__radius ** 2
