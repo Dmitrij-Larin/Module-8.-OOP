@@ -55,7 +55,7 @@ class Doors:
 
     def get_info_doors(self):
         return (f"Тип дверей - {self.__doors_type}\n"
-                f"Крепёж дверей - {self.__fasteners}")
+                f"Крепёж дверей - {self.__fasteners}\n")
 
 
 class Car(Wheels, Engine, Doors):
